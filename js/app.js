@@ -1,3 +1,4 @@
+"use strict";
 let userName=prompt("What The Name Of Programmer This Page ..Answer Murad");
 
 var user=userName.substr();
