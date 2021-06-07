@@ -51,10 +51,10 @@ else {
 let study=prompt("Is The Programmer Have A Degree Of Comuter Information System ..Answer Yes Or No or y or n");
 
 var studys=study.toLowerCase();
-if(studys=="yes"||studys=="no"){
+if(studys=="yes"||studys=="y"){
     alert("You Have A correct Answer");
 }
-else if(studys=="y"||studys=="n"){
+else if(studys=="no"||studys=="n"){
     alert("unfortunately You Have Uncorrect Answer");
 }
 else {
