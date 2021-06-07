@@ -1,7 +1,7 @@
 let userName=prompt("What The Name Of Programmer This Page ..Answer Murad");
 
 var user=userName.substr();
-if(user==="murad"){
+if(user=="murad"){
     alert("You Have A correct");
 }
 else{
@@ -11,23 +11,23 @@ else{
 let work=prompt("Is The Programmer For This Page Love Work ..Answer Yes Or No or y or n");
 
 var works=work.substr();
-if(works=="yes"||"y"){
+if(works=="yes"||works=="y"){
     alert("You Have A correct Answer");
 }
-else if(works=="no"||"n"){
+else if(works=="no"||works=="n"){
     alert("unfortunately You Have Uncorrect Answer");
 }
 else {
     alert("Please Answer Yes , No , y , n");
 }
 // end work
-let work=prompt("Is The Programmer Work As A Electric Assistant ..Answer Yes Or No or y or n");
+let wor=prompt("Is The Programmer Work As A Electric Assistant ..Answer Yes Or No or y or n");
 
-var works=work.substr();
-if(works=="yes"||"y"){
+var wors=wor.substr();
+if(wors=="yes"||wors=="y"){
     alert("You Have A correct Answer");
 }
-else if(works=="no"||"n"){
+else if(wors=="no"||wors=="n"){
     alert("unfortunately You Have Uncorrect Answer");
 }
 else {
@@ -36,11 +36,11 @@ else {
 // 
 let worker=prompt("Is The Programmer  Work As A selling manager ..Answer Yes Or No or y or n");
 
-var workers=work.substr();
-if(workers=="n"||"no"){
+var workers=worker.substr();
+if(workers=="n"||workers=="no"){
     alert("You Have A correct Answer");
 }
-else if(workers=="yes"||"y"){
+else if(workers=="yes"||workers=="y"){
     alert("unfortunately You Have Uncorrect Answer");
 }
 else {
@@ -49,11 +49,11 @@ else {
 //
 let study=prompt("Is The Programmer Have A Degree Of Comuter Information System ..Answer Yes Or No or y or n");
 
-var studys=work.substr();
-if(studys=="yes"||"no"){
+var studys=study.substr();
+if(studys=="yes"||studys=="no"){
     alert("You Have A correct Answer");
 }
-else if(studys=="y"||"n"){
+else if(studys=="y"||studys=="n"){
     alert("unfortunately You Have Uncorrect Answer");
 }
 else {
@@ -62,11 +62,11 @@ else {
 //
 let degree=prompt("Is The Programmer Have Accounting Degree ..Answer Yes Or No or y or n");
 
-var degrees=work.substr();
-if(degrees=="n"||"no"){
+var degrees=degree.substr();
+if(degrees=="n"||degrees=="no"){
     alert("You Have A correct Answer");
 }
-else if(works=="yes"||"y"){
+else if(degrees=="yes"||degrees=="y"){
     alert("unfortunately You Have Uncorrect Answer");
 }
 else {
@@ -75,11 +75,11 @@ else {
 //
 let speek=prompt("Is The Programmer Speek Spanish ..Answer Yes Or No or y or n");
 
-var speeks=work.substr();
-if(speeks=="n"||"no"){
+var speeks=speek.substr();
+if(speeks=="n"||speeks=="no"){
     alert("You Have A correct Answer");
 }
-else if(speeks=="yes"||"n"){
+else if(speeks=="yes"||speeks=="n"){
     alert("unfortunately You Have Uncorrect Answer");
 }
 else {
