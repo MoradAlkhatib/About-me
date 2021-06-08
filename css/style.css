@@ -3,7 +3,7 @@ header h1{
     font-weight:700;
     margin-left: 20px;
     margin-top: 10px;
-    color: ;
+    color:rgb(105, 59, 12) ;
     
 }
 
@@ -32,6 +32,7 @@ main h1{
     font-size: 30px;
     font-weight: initial;
     background-color: ivory;
+    margin: 30px 0;
     
 }
 
@@ -59,9 +60,8 @@ main pre{
     color: rgb(105, 59, 12);
     text-align: center;
 }
-section :nth-child(2) {
-margin-left: 100px;
-}
+
+
 main ul li {
     display: inline-block;
     margin: 15px;
@@ -69,6 +69,20 @@ main ul li {
     font-size: 20px;
     margin-left: 150px;
 }
+
+main ol {
+    margin-left: 40%;
+    line-height: 2;
+    list-style: decimal ;
+    
+    
+}
+main ol li {
+    font-size: 20px;
+    color:rgb(105, 59, 12) ;
+    
+}
+
 footer {
     background-color: black;
     color:white;
