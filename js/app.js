@@ -1,4 +1,7 @@
 "use strict";
+let usern=prompt("Please Enter You'r Name");
+alert('Hello  '+usern+'  You are Welcom');
+
 let userName=prompt("What The Name Of Programmer This Page ..Answer Murad");
 
 var user=userName.toLowerCase();
@@ -86,3 +89,6 @@ else if(speeks=="yes"||speeks=="n"){
 else {
     alert("Please Answer Yes , No , y , n");
 }
+
+
+alert('Good Bye '+usern);
