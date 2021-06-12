@@ -1,8 +1,8 @@
 "use strict";
- var score=0;
-// let usern=prompt("Please Enter You'r Name");
-// alert('Hello  '+usern+'  You are Welcom');
-// alert(usern+' We Have A Seven Question For You ......');
+var score=0;
+let usern=prompt("Please Enter You'r Name");
+alert('Hello  '+usern+'  You are Welcom');
+alert(usern+' We Have A Seven Question For You ......');
  
 
 function yesOrnoQuestion(question,correctAns,uncorrescAns) {
@@ -27,20 +27,11 @@ function guessAge(){
     let g;
     
     var guess;
-    var s=0;
-    
-    
+   
     for(var i =0;i<4;i++)
     {
         g=prompt("whats My old ? Only Number Is Allowed");
-        if (isNaN(g)){
-            alert("You Can Use Tust A Numbers")
-             s=i;
-             i=s;
-           }
-           else{
-               i=s;
-               s++;
+    
             guess =parseInt(g);
        if(guess===24)
        {alert("Thats Correct Ansewr ");
@@ -57,7 +48,9 @@ function guessAge(){
         guess=prompt("whats My old ?");
     }
 }
-    }
+    
+     
+    
     if(guess!=24)
     alert("Tha Correct Answer Is 24");
     
@@ -90,28 +83,17 @@ function guessTopTen(){
 
 }
 
-// yesOrnoQuestion('Is The Programmer For This Page Love Work','You Have A Correct Answer','UnCorrect Answer');
-// yesOrnoQuestion('Is The Programmer Work As A Electric Assistant','You Have A Correct Answer','UnCorrect Answer');
-// yesOrnoQuestion('Is A Maui, Hawaii A One Of Top Ten To Visiting','You Have A Correct Answer','UnCorrect Answer');
-// yesOrnoQuestion('Is The Programmer Have A Degree Of Comuter Information System','You Have A Correct Answer','UnCorrect Answer');
-// yesOrnoQuestion('Is The Programmer Talk English Language','You Have A Correct Answer','UnCorrect Answer');
-  guessAge();
-//  guessTopTen();
-
-// alert("You'r Scour Is "+score+"/7");
+yesOrnoQuestion('Is The Programmer For This Page Love Work','You Have A Correct Answer','UnCorrect Answer');
+yesOrnoQuestion('Is The Programmer Work As A Electric Assistant','You Have A Correct Answer','UnCorrect Answer');
+yesOrnoQuestion('Is A Maui, Hawaii A One Of Top Ten To Visiting','You Have A Correct Answer','UnCorrect Answer');
+yesOrnoQuestion('Is The Programmer Have A Degree Of Comuter Information System','You Have A Correct Answer','UnCorrect Answer');
+yesOrnoQuestion('Is The Programmer Talk English Language','You Have A Correct Answer','UnCorrect Answer');
+guessAge();
+guessTopTen();
 
 
-// alert('Good Bye '+usern);
+alert("You'r Scour Is "+score+"/7");
+alert('Good Bye '+usern);
 
-// let input;
-// while (input = prompt("Input number: ")) {
-//   if (isNaN(input)) {
-//     alert("Invalid input.");
-    
-//   } else {
-//     alert("valid input.");
-//     break;
-//   }
-// }
 
 
