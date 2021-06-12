@@ -1,31 +1,47 @@
+body{
+    background-color: cyan;
+}
+header{
+    background-color: ivory;
+}
 header h1{
-    font-size: 40px;
+    font-size: 50px;
     font-weight:700;
-    margin-left: 20px;
-    margin-top: 10px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-left: 100px;
+    margin-top: 90px;
     color:rgb(105, 59, 12) ;
+    float:left;
+    
     
 }
 
 header img{
-    margin-left: 20px;
-    width:200px;
+    margin-left: 13%;
+    width:250px;
     height:200px;
-    border: 2px solid black;
-    margin-top: 20px;
+    margin-top: 0;
+    display:inline-flexbox;
+    
+
 }
 header nav{
-    margin-top: 10px;
+    margin-top: 90px;
     float: right;
-    margin-right: 20px;
+    margin-right: 30px;
     
 }
 header nav ul li{
     display: inline-block;
     margin-left: 10px;
-    border:1px cyan inset;
-    padding: 5px;;
+    border:2px rgb(202, 159, 179) inset;
+    padding: 10px;;
+    text-shadow: navy;
 
+}
+nav a{
+    text-decoration: none;
+    color:darkgrey
 }
 main h1{
     text-align: center;
@@ -33,6 +49,8 @@ main h1{
     font-weight: initial;
     background-color: ivory;
     margin: 30px 0;
+    padding: 10px 20px;
+    font-family: cursive;
     
 }
 
@@ -83,7 +101,7 @@ main ol li {
     
 }
 
-footer {
+footer h2{
     background-color: black;
     color:white;
     text-align: center;
